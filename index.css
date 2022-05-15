@@ -15,7 +15,7 @@
 a:hover{
     color: red !important;
 }
-img{
+.navbar-brand img{
     width: 200px;
     height: 100px;
     box-sizing: border-box;
@@ -24,6 +24,7 @@ img{
 .navigation-wrap{
 
 box-shadow: 0 0.125rem 1.75rem 0 rgba(0, 0, 0, 0.09);
+transition: all .15s ease-in-out 0s;
 }
 .navbar-toggler:active{
 
@@ -68,11 +69,47 @@ h2{
     background-position: 230px 100px ;
     
 }
-.section3{
+
+
+.section1 h2{
+    color:brown;
+    font-size: 50px;
+
+    
+}
+@media (max-width : 1px){
+    .navbar-brand img{
+        height: 4.8125rem;
+    }
+    button{
+        padding: 110rem;
+    }
+
+}
+@media(max-width : 767px){
+    h2{
+    font-size: 66rem;
+    line-height: 3rem;
+    }
+    button{
+        padding: 110rem;
+    }
+}
+.text1{
+    font-weight: 500;
+    word-spacing: 12px;
+}
+.section22{
     background-color: brown;
 }
-.section3 h2{
-    color: aliceblue;
-    font-size: 50px;
-    
+.section22 h2{
+    color: aliceblue !important;
+}
+.section3 .card,
+.section3 .card img
+{
+    border-radius: 0.625rem;
+}
+.section3{
+    background:white ;
 }
