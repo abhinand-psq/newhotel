@@ -113,3 +113,37 @@ h2{
 .section3{
     background:white ;
 }
+.list{
+    
+    line-height: 35px;
+}
+.list ul{
+   
+  
+    font-size: 22px;
+}
+@media (max-width : 767px){
+.section5{
+    height: auto;
+
+}
+}
+.list1 p{
+    font-size: larger;
+}
+
+
+.list ul li{
+    content: '\f00c';
+    font-family:"font aswome 5 free";
+    list-style:square ;
+    }
+    .section5{
+        background: url('https://i.pinimg.com/originals/8f/a9/f2/8fa9f236abea637935de62e1d0dc777f.jpg');
+
+        background-size: cover;
+        background-repeat: no-repeat;
+      height: 282px;
+      
+    }
+   
