@@ -127,6 +127,10 @@ h2{
     height: auto;
 
 }
+.section7 .carousel-item .carousel-caption p{
+        
+}
+
 }
 .list1 p{
     font-size: larger;
@@ -146,4 +150,103 @@ h2{
       height: 282px;
       
     }
+   .section6 .card{
+       background-color: transparent;
+       border-radius: 0.9657rem;
+   }
+   .section6 .card img{
+       border-radius: 00.9657rem;
+       object-fit:cover;
+   }
+   .section6 .card h5{
+       padding-top: 2rem;
+   }
+   .section6 .card del{
+       color: gray;
+   }
+   .section6 .card span{
+       color: red;
+       border-bottom:solid gray 0.00444rem ;
+   }
    
+   .section7{
+       background-color: brown;
+       padding-bottom: 7rem;
+       padding-top: 4rem;
+   }
+   .section7 .carousel-item {
+       margin-top: 3rem;
+       padding: 10rem ;
+       background-color: aliceblue;
+       border-radius: 0.999rem;
+       text-align: center;
+   }
+  .carousel-caption h5,p{
+color: black;
+
+  }
+  .section7 .carousel-item .carousel-caption img{
+max-width: 5rem;
+border-radius: 50%;
+  }
+  .carousel-caption h5{
+      padding-top: 2rem;
+
+  }
+  .section7 .carousel-item .carousel-caption p{
+      padding: 0 5rem;
+  }
+ .section7 .carousel-indicators button{
+     width: 15px;
+     height: 15px;
+     outline: none;
+     border-radius: 50%;
+     border:none;
+     margin-right: 1rem;
+     
+   
+ }
+ .section7 .carousel-indicators button.active{
+     background-color:red;
+ }
+ .section7 .carousel-indicators{
+    margin-bottom: -2.845rem;
+ }
+ @media(max-width:330px){
+    .section7 .carousel-item{
+        padding:11rem 3.12rem;
+    }
+    .section7 .carousel-item .carousel-caption p{
+        padding: 0rem;
+    }
+ }
+ @media(max-width:215px){
+    .section7 .carousel-item{
+        padding:15rem 3.12rem;
+    }
+ }
+ @media(max-width:780px){
+    .section7 .carousel-item .carousel-caption p{
+        padding: 0rem;
+    }
+ }
+ .section8 h4{
+     line-height: 40px;
+     color: brown;
+     font-weight: bolder;
+     
+ }
+ .section8 h4 span{
+     color: red;
+ }
+ @media(max-width:325px){
+    .section8 h4{
+        line-height: 25px;
+    }
+    .section8 h2{
+        margin-left: 2rem;
+ }
+}
+ .section8 h2{
+     margin-right: 3rem;
+ }
